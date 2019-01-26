@@ -2,14 +2,23 @@
 # system.prop for oxygen
 #
 
+# Audio
+PRODUCT_PROPERTY_OVERRIDES += \
+ro.config.media_vol_steps=25 \
+ro.config.vc_call_vol_steps=7
+
 # Camera
 persist.camera.HAL3.enabled=1
 vendor.camera.aux.packagelist=com.android.camera,com.google.android.Pixel3Mod
 -
+
+# DT2W (oxygen)
+
+PRODUCT_PROPERTY_OVERRIDES += \
+dt2w.enabled=1
+
 # Fix Cast/Miracast
 persist.sys.wfd.virtual=0
 
 #FP
 ro.fingerprint.cleanup.unused=false
-
-ro.config.vc_call_vol_steps
