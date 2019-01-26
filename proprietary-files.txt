@@ -1,27 +1,12 @@
-# Audio ACDB
-etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb:vendor/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb
-etc/acdbdata/QRD/QRD_General_cal.acdb:vendor/etc/acdbdata/QRD/QRD_General_cal.acdb
-etc/acdbdata/QRD/QRD_Global_cal.acdb:vendor/etc/acdbdata/QRD/QRD_Global_cal.acdb
-etc/acdbdata/QRD/QRD_Handset_cal.acdb:vendor/etc/acdbdata/QRD/QRD_Handset_cal.acdb
-etc/acdbdata/QRD/QRD_Hdmi_cal.acdb:vendor/etc/acdbdata/QRD/QRD_Hdmi_cal.acdb
-etc/acdbdata/QRD/QRD_Headset_cal.acdb:vendor/etc/acdbdata/QRD/QRD_Headset_cal.acdb
-etc/acdbdata/QRD/QRD_Speaker_cal.acdb:vendor/etc/acdbdata/QRD/QRD_Speaker_cal.acdb
-etc/acdbdata/adsp_avs_config.acdb:vendor/etc/acdbdata/adsp_avs_config.acdb
-
-# Audio
-lib/hw/audio.primary.msm8953.so
-lib64/hw/audio.primary.msm8953.so
-
-# Audio dirac and dolby
-lib/soundfx/libdirac.so
-vendor/lib/libhwdaphal.so
-vendor/lib64/libhwdaphal.so
-vendor/etc/drc/drc_cfg_5.1.txt
-vendor/etc/drc/drc_cfg_AZ.txt
-vendor/etc/surround_sound_3mic/surround_sound_rec_5.1.cfg
-vendor/etc/surround_sound_3mic/surround_sound_rec_AZ.cfg
-
-
+# Audio ACDBDATA
+vendor/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb
+vendor/etc/acdbdata/QRD/QRD_General_cal.acdb
+vendor/etc/acdbdata/QRD/QRD_Global_cal.acdb
+vendor/etc/acdbdata/QRD/QRD_Handset_cal.acdb
+vendor/etc/acdbdata/QRD/QRD_Hdmi_cal.acdb
+vendor/etc/acdbdata/QRD/QRD_Headset_cal.acdb
+vendor/etc/acdbdata/QRD/QRD_Speaker_cal.acdb
+vendor/etc/acdbdata/adsp_avs_config.acdb
 
 # Camera
 bin/mm-qcamera-daemon:vendor/bin/mm-qcamera-daemon
