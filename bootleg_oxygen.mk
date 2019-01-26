@@ -21,12 +21,12 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from oxygen device
 $(call inherit-product, device/xiaomi/oxygen/device.mk)
 
-# Inherit some common RR  stuff.
-$(call inherit-product, vendor/rr/config/common_full_phone.mk)
+# Inherit some common Bootleggers  stuff.
+$(call inherit-product, vendor/bootleggers/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := oxygen
-PRODUCT_NAME := rr_oxygen
+PRODUCT_NAME := bootleg_oxygen
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Mi Max 2
 PRODUCT_MANUFACTURER := Xiaomi
@@ -35,7 +35,7 @@ BOARD_VENDOR := Xiaomi
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
-RR_BUILD_TYPE := Unofficial
+BOOTLEGGERS_BUILD_TYPE := Unofficial
 DEVICE_MAINTAINERS="Scissordragonboy | Yassh Malik"
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
