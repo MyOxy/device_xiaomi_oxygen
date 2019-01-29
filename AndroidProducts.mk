@@ -14,4 +14,4 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/bootleg_oxygen.mk
+    $(LOCAL_DIR)/aicp_oxygen.mk
