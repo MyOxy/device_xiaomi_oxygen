@@ -22,10 +22,6 @@ etc/acdbdata/Tutu/Tutu_Hdmi_cal.acdb:vendor/etc/acdbdata/Tutu/Tutu_Hdmi_cal.acdb
 etc/acdbdata/Tutu/Tutu_Headset_cal.acdb:vendor/etc/acdbdata/Tutu/Tutu_Headset_cal.acdb
 etc/acdbdata/Tutu/Tutu_Speaker_cal.acdb:vendor/etc/acdbdata/Tutu/Tutu_Speaker_cal.acdb
 
-# Audio
-lib/hw/audio.primary.msm8953.so
-lib64/hw/audio.primary.msm8953.so
-
 # Audio dirac and dolby
 lib/soundfx/libdirac.so
 vendor/lib/libhwdaphal.so
